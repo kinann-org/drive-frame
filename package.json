@@ -1,0 +1,40 @@
+{
+  "name": "drive-frame",
+  "version": "0.9.0",
+  "description": "Javascript library for DIY factory robots",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "src": "src",
+  },
+  "dependencies": {
+    "mathjs": "^3.9.2",
+    "serialport": "^4.0.7",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  },
+  "scripts": {
+    "test": "npm run test:verbose",
+    "test:watch": "mocha -w -R min --inline-diffs",
+    "test:test": "mocha -w -R min --inline-diffs -g TEST",
+    "test:verbose": "mocha --inline-diffs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinann-org/drive-frame.git"
+  },
+  "keywords": [
+    "stepper motor",
+    "kinematics",
+    "robot"
+  ],
+  "author": "Karl Lew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kinann-org/drive-frame/issues"
+  },
+  "homepage": "https://github.com/kinann-org/drive-frame"
+}
