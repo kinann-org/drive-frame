@@ -3,11 +3,11 @@ The **drive-frame** JavaScript library provides a simple and extensible
 framework for modeling and controlling DIY manufacturing robots. 
 A DIY manufacturing robot is modeled as a <var>DriveFrame</var>,
 which is a collection of one or more individually controllable
-stepper motor drives. Drive topology is unrestricted, which allows 
-a <var>DriveFrame</var> to represent a broad range of robots
-(e.g., Cartesian, delta, etc.). The consistency of the DriveFrame representation
-simplifies the design and prototyping of 
-established and experimental DIY robot configurations. 
+stepper motor drives. Drive topology is unrestricted, and
+a <var>DriveFrame</var> can represent a broad range of robots
+(e.g., Cartesian, delta, etc.). The consistency and generality of 
+DriveFrame representation therefore greatly simplifies 
+the design and prototyping of established and experimental DIY robot configurations. 
 
 ### Coordinates
 A <var>DriveFrame</var> works with the following coordinates:
