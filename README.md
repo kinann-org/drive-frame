@@ -14,7 +14,7 @@ A <var>DriveFrame</var> works with the following coordinates:
 
 1. **Motor coordinates** are the smallest digital positioning unit and are typically 1:1 with microsteps.
 1. **Drive coordinates** are the drive-relative positioning unit (e.g., mm or degrees).
-1. **Effector coordinates** are he world coordinates of the effector.
+1. **Effector/World coordinates** are the world coordinates of the effector.
 
 ### StepperDrive
 A <var>StepperDrive</var> maps drive coordinates to motor coordinates and v.v. 
