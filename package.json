@@ -1,6 +1,6 @@
 {
   "name": "drive-frame",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Javascript library for DIY factory robots",
   "main": "index.js",
   "directories": {

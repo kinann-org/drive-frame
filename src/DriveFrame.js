@@ -77,7 +77,7 @@
                 var drives = json.drives.map((d) => StepperDrive.fromJSON(d));
                 frame = new DriveFrame(drives, json);
                 if (json.calibration && options.calibrationFactory) {
-                    frame.calibration = options.fromJSON(json.calibration);
+                    frame.calibration = options.calibrationFactory(json.calibration);
                 }
             }
             return frame;
